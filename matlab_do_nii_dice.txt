@@ -1,0 +1,1 @@
+matlab -nodisplay -nosplash < test_csvread.m >dice_results.csv 

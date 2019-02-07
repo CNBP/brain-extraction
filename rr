@@ -1,0 +1,145 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> ALB: 7>> >> DeformationFile: ./Experiments/CPS/test/normalized/ALBERT/y_03_T2.nii
+Ground truth output folder: ./Experiments/CPS/groundtruth/normalized/ALBERT
+Initialising batch system... done.
+Item 'Deformation Field', field 'val': Number of matching files (0) less than required (1).
+Item 'Images to Write', field 'val': Number of matching files (0) less than required (1).
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Normalise: Write'
+Done    'Normalise: Write'
+Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          15:06:49 - 31/12/2018
+========================================================================
+ImCalc Image: ./Experiments/CPS/groundtruth/normalized/ALBERT/iw03_T2_Export.nii
+Done    'Image Calculator'
+Done
+
+DeformationFile: ./Experiments/CPS/test/normalized/ALBERT/y_05_T2.nii
+Ground truth output folder: ./Experiments/CPS/groundtruth/normalized/ALBERT
+Item 'Deformation Field', field 'val': Number of matching files (0) less than required (1).
+Item 'Images to Write', field 'val': Number of matching files (0) less than required (1).
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Normalise: Write'
+Done    'Normalise: Write'
+Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          15:07:03 - 31/12/2018
+========================================================================
+ImCalc Image: ./Experiments/CPS/groundtruth/normalized/ALBERT/iw05_T2_Export.nii
+Done    'Image Calculator'
+Done
+
+DeformationFile: ./Experiments/CPS/test/normalized/ALBERT/y_06_T2.nii
+Ground truth output folder: ./Experiments/CPS/groundtruth/normalized/ALBERT
+Item 'Deformation Field', field 'val': Number of matching files (0) less than required (1).
+Item 'Images to Write', field 'val': Number of matching files (0) less than required (1).
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Normalise: Write'
+Done    'Normalise: Write'
+Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          15:07:16 - 31/12/2018
+========================================================================
+ImCalc Image: ./Experiments/CPS/groundtruth/normalized/ALBERT/iw06_T2_Export.nii
+Done    'Image Calculator'
+Done
+
+DeformationFile: ./Experiments/CPS/test/normalized/ALBERT/y_10_T2.nii
+Ground truth output folder: ./Experiments/CPS/groundtruth/normalized/ALBERT
+Item 'Deformation Field', field 'val': Number of matching files (0) less than required (1).
+Item 'Images to Write', field 'val': Number of matching files (0) less than required (1).
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Normalise: Write'
+Done    'Normalise: Write'
+Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          15:07:30 - 31/12/2018
+========================================================================
+ImCalc Image: ./Experiments/CPS/groundtruth/normalized/ALBERT/iw10_T2_Export.nii
+Done    'Image Calculator'
+Done
+
+DeformationFile: ./Experiments/CPS/test/normalized/ALBERT/y_11_T2.nii
+Ground truth output folder: ./Experiments/CPS/groundtruth/normalized/ALBERT
+Item 'Deformation Field', field 'val': Number of matching files (0) less than required (1).
+Item 'Images to Write', field 'val': Number of matching files (0) less than required (1).
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Normalise: Write'
+Done    'Normalise: Write'
+Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          15:07:43 - 31/12/2018
+========================================================================
+ImCalc Image: ./Experiments/CPS/groundtruth/normalized/ALBERT/iw11_T2_Export.nii
+Done    'Image Calculator'
+Done
+
+DeformationFile: ./Experiments/CPS/test/normalized/ALBERT/y_12_T2.nii
+Ground truth output folder: ./Experiments/CPS/groundtruth/normalized/ALBERT
+Item 'Deformation Field', field 'val': Number of matching files (0) less than required (1).
+Item 'Images to Write', field 'val': Number of matching files (0) less than required (1).
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Normalise: Write'
+Done    'Normalise: Write'
+Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          15:07:56 - 31/12/2018
+========================================================================
+ImCalc Image: ./Experiments/CPS/groundtruth/normalized/ALBERT/iw12_T2_Export.nii
+Done    'Image Calculator'
+Done
+
+DeformationFile: ./Experiments/CPS/test/normalized/ALBERT/y_17_T2.nii
+Ground truth output folder: ./Experiments/CPS/groundtruth/normalized/ALBERT
+Item 'Deformation Field', field 'val': Number of matching files (0) less than required (1).
+Item 'Images to Write', field 'val': Number of matching files (0) less than required (1).
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Normalise: Write'
+Done    'Normalise: Write'
+Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          15:08:10 - 31/12/2018
+========================================================================
+ImCalc Image: ./Experiments/CPS/groundtruth/normalized/ALBERT/iw17_T2_Export.nii
+Done    'Image Calculator'
+Done
+
+>> >> 
