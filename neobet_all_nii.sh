@@ -18,7 +18,12 @@ bash /opt2/optiBET/neoBET.sh -i $INPUT
 echo Finished Doing neoBET $INPUT
 
 # Save result in the correct location
-# INPUT: ./Experiments/CPS/test/normalized/dHCP/iwsub-CC00206XX08_ses-70100_T2w.nii
-# OUTPUT: ./Experiments/CPS/results/normalized/dHCP/iwsub-CC00206XX08_ses-70100_T2w_neoBET_brain.nii
-echo Doing MV $INPUT to $OUTPUT directory
-mv $INPUT $OUTPUT
+# INPUT: /toshiba2/Vuyo/Experiments/CPS/test/normalized/dHCP/iwsub-CC00206XX08_ses-70100_T2w.nii
+# OUTPUT: /toshiba2/Vuyo/Experiments/CPS/results/normalized/dHCP/iwsub-CC00206XX08_ses-70100_T2w_neoBET_brain.nii
+#echo Doing MV $INPUT to $OUTPUT directory
+# Value of $INPUT is wrong. It should be result of neoBET and not the non-extracted image
+##mv $INPUT $OUTPUT
+$RESULT="$INP$FRAG.$EXT"
+echo Doing MV $RESULT to $OUTPUT directory
+# $RESULT should have the correct file name to move to the results directory
+##mv $RESULT $OUTPUT
