@@ -1,0 +1,39 @@
+1: Normalize all subject data (except for ground truths)
+matlab -nodisplay -nosplash < normalizeandimagecalc.m
+
+- Move w* and y_* files to */test/normalized/* matching directories 
+mv /toshiba2/Vuyo/Experiments/CPS/data/ALBERT/w* /toshiba2/Vuyo/Experiments/CPS/test/normalized/ALBERT/
+
+mv /toshiba2/Vuyo/Experiments/CPS/data/ALBERT/y_* /toshiba2/Vuyo/Experiments/CPS/test/normalized/ALBERT/
+
+mv /toshiba2/Vuyo/Experiments/CPS/data/dHCP/w* /toshiba2/Vuyo/Experiments/CPS/test/normalized/dHCP/
+
+mv /toshiba2/Vuyo/Experiments/CPS/data/dHCP/y_* /toshiba2/Vuyo/Experiments/CPS/test/normalized/dHCP/
+
+2: Normalize ground truths
+matlab -nodisplay -nosplash < ground_dhcp_normalizeandimagecalc.m
+
+- Move w* and y_* files to */groundtruth/normalized/* matching directories
+
+3: Run Brain Extractions
+./parallel_bet_all_nii.sh
+
+./parallel_watershed_all_nii.sh
+
+./parallel_neobet_all_nii.sh
+
+4. Decompress any compressed extractions in the results folder
+find /toshiba2/Vuyo/Experiments/CPS/results -type f -iname '*.gz' | parallel --bar --max-args=1 gunzip {1}
+
+5: Calculate DICE scores for Ground truth vs Brain Extractions
+matlab -nodisplay -nosplash < test_csvread.m >dice_results.csv
+
+6: Remove MATLAB header text etc from dice_results.csv
+Also remove ‘>>’ strings
+
+7. Process DICE score calculations into format suitable for Stats analysis
+python process_dice_results.py >vv
+mv vv dice_results_with_refined_albert_ground_truth.csv
+
+8. Check that ALL DICE scores are available for the Extraction tools
+
